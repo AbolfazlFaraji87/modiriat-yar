@@ -50,24 +50,24 @@ Make sure you have the following installed:
 git clone https://github.com/AbolfazlFaraji87/modiriat-yar.git
 cd modiriat-yar
 
-2. Set Up the Backend
-
-cd back-end
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-
+2. Set Up the Backend:
+   - cd back-end
+   - python -m venv venv
+   - source venv/bin/activate
+   - pip install -r requirements.txt
+   - python manage.py migrate
+   - python manage.py runserver
+  
 The Django development server will usually be available at http://127.0.0.1:8000/.
+
 
 3. Set Up the Frontend
 
 Open a second terminal:
+- cd front-end
+- npm install
+- npm run dev
 
-cd front-end
-npm install
-npm run dev
 
 Vite will display the local frontend URL in your terminal.
 
