@@ -34,27 +34,7 @@ Backend:
 - Django REST Framework
 - Token-based authentication
 - SQLite for development
-
-PROJECT STRUCTURE
-
-modiriat-yar/
-├── back-end/
-│   ├── config/
-│   ├── core/
-│   ├── projects/
-│   ├── services/
-│   ├── blog/
-│   ├── messages_app/
-│   ├── manage.py
-│   └── requirements.txt
-│
-├── front-end/
-│   ├── public/
-│   ├── src/
-│   ├── package.json
-│   └── vite.config.ts
-│
-└── README.md
+  
 
 GETTING STARTED
 
