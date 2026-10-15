@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local database
+back-end/db.sqlite3
+
+# Uploaded media
+back-end/media/
+
+# React
+front-end/node_modules/
+front-end/dist/
+
+# Logs and editors
+*.log
+.DS_Store
+.vscode/
+.idea/
+
